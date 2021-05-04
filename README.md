@@ -1,7 +1,9 @@
 # Ambiente de robótica aérea
-Ambiente para los ejercicios de robotica aérea
 
-## Instrucciones de instalación
+Ambiente para los ejercicios de robotica aérea. 
+Todos los derechos reservados. Juan Irving Vasquez. 2019 - 2021.
+
+## Instrucciones de instalación (Linux)
 
 Realiza las siguientes instrucciones en tu máquina.
 
@@ -14,10 +16,11 @@ git clone https://github.com/irvingvasquez/ra_environment.git
 ```sh
 $ conda env create -f environment.yml
 ```
-- Para verficar que se instaló el ambiente puedes listar todos los ambientes con:
+- Para verficar que se instaló el ambiente puedes listar todos los ambientes con el comando:
 ```sh
 $ conda info --envs
 ```
+- Deberá aparecer el nombre *ra_env* entre los ambientes listados.
 - Una vez instalado en ambiente es necesario activarlo cada vez que abras una terminal:
 ```sh
 $ source activate ra_env

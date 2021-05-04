@@ -14,4 +14,4 @@ dependencies:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
         - bresenham==0.2
-        - shapely==1.6.4
+        - shapely==1.7.1
